@@ -1,2 +1,4 @@
 # corruworld
-wip corru.observer mod for rimworld
+its not here yet lmao
+
+soon...
