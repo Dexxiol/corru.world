@@ -130,6 +130,7 @@
 					<depth>Outside</depth>
 					<groups>
 						<li>UpperHead</li>
+						<li>FullHead</li>
 					</groups>
 				</li>
 				<li>
@@ -139,6 +140,7 @@
 					<depth>Outside</depth>
 					<groups>
 						<li>UpperHead</li>
+						<li>FullHead</li>
 					</groups>
 				</li>
                 <li>
