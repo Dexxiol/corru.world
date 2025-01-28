@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>Dexxiol.Corruworld</packageId>
+    <name>Corru.world</name>
+    <author>Dexxiol</author>
+    <description>Test for the corru.observer mod.</description>
+    <supportedVersions>
+      <li>1.5</li>
+    </supportedVersions>
+    <modVersion>0.0.0.5</modVersion>
+	<modDependenciesByVersion>
+      <v1.5>
+        <li>
+          <packageId>erdelf.HumanoidAlienRaces</packageId>
+          <displayName>Humanoid Alien Races</displayName>
+	  
+    <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+	    </li>
+		</v1.5>
+    </modDependenciesByVersion>
+
+</ModMetaData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseObeskiAnimal"> // this is not final, supposed to be a base for all obeski animals if we ever plan to make these
+		<statBases>
+			<ToxicResistance>1</ToxicResistance>
+			<ComfyTemperatureMax>75</ComfyTemperatureMax>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+		</statBases>
+		<race>
+			<fleshType>Insectoid</fleshType> // whatever they are lol
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<meatColor>(47,39,69)</meatColor>
+			<meatMarketValue>0.5</meatMarketValue>
+			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+			<soundEating>Insectoid_Eat</soundEating>
+		</race>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li MayRequire="Ludeon.RimWorld.Ideology">InsectMeat</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

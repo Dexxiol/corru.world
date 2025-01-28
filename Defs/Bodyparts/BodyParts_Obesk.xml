@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<BodyPartDef>
+		<defName>Right_Receptors</defName>
+		<label>Right Receptors</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>true</skinCovered>
+		<bleedRate>1</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>Left_Receptors</defName>
+		<label>Left Receptors</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>true</skinCovered>
+		<bleedRate>1</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+	</BodyPartDef>
+
+</Defs>
