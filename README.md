@@ -1,4 +1,4 @@
-# corruworld
-its not here yet lmao
+# corru.world, a rimworld 1.5 mod
 
-soon...
+This mod at the current stage is very much work in progress
+i dont know what to write here or how to run github :smiley:
