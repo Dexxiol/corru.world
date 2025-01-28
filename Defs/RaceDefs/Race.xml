@@ -63,6 +63,9 @@
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<colorChannel>skin</colorChannel>
 							<drawSize>1</drawSize>
+							<linkVariantIndexWithPrevious>
+								true
+							</linkVariantIndexWithPrevious>
 							<conditions>
 								<BodyPart>
 									<bodyPart>Right_Receptors</bodyPart>
