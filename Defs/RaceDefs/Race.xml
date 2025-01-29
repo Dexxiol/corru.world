@@ -120,6 +120,11 @@
 										<min>RGB(150,150,150)</min>
 										<max>RGB(150,150,150)</max>
 									</li>
+									<li>
+										<weight>2</weight>
+										<min>RGB(110,110,110)</min>
+										<max>RGB(110,110,110)</max>
+									</li>
 								</options>
 							</first>
 							<second Class="AlienRace.ColorGenerator_CustomAlienChannel">
