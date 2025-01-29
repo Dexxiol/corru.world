@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<HediffDef Name="ObeskReceptorsBase" Abstract="True">
+		<everCurableByItem>false</everCurableByItem>
+	</HediffDef>
+	
+	<HediffDef ParentName="ObeskReceptorsBase">
+		<defName>ObeskReceptorsBuff</defName>
+		<label>obesk receptors</label>
+		<description>receptors that make you cool</description>
+		<defaultLabelColor>(0.0, 0.6, 0.0)</defaultLabelColor>
+		<stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>0.5</MoveSpeed>
+					<MeleeDodgeChance>6.0</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>
