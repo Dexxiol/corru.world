@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCaste1</defName>
+		<title>obesk</title>
+		<titleShort>obesk</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef] is an obesk.
+		\n[PAWN_pronoun] belong to a specific caste.</description>
+		<spawnCategories>
+			<li>ObeskAdultBackstory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

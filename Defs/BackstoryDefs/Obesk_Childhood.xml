@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskChildCasteless1</defName>
+		<title>obesk</title>
+		<titleShort>obesk</titleShort>
+		<slot>Childhood</slot>
+		<description>[PAWN_nameDef] is an obesk but tiny.
+		\n[PAWN_pronoun] dont belong to any caste yet.</description>
+		<spawnCategories>
+			<li>ObeskChildBackstory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

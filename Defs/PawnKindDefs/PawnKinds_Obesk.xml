@@ -7,8 +7,14 @@
 		<label>colonist</label>
 		<race>Obesk</race>
 		<defaultFactionType>PlayerColony</defaultFactionType>
-	
-		<!-- This is a required field. 13~21 is the default value for Crashlanded player colonists. -->
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>ObeskChildBackstory</li>
+					<li>ObeskAdultBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>
 
