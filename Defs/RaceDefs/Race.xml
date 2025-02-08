@@ -4,7 +4,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="Human">
 		<defName>Obesk</defName>
 		<label>Obesk</label>
-		<description>this is an obesk lol</description>
+		<description>this is an obesk lol i need a new description for this badly</description>
 		<alienRace>
 			<graphicPaths>
                 <skinShader>Cutout</skinShader>
@@ -346,6 +346,25 @@
 						</li>
 					</colorChannels>
 				</alienPartGenerator>
+				<forcedRaceTraitEntries>
+					<li>
+						<options>
+							<li>
+								<defName Degree="1">ObeskCastes</defName>
+							</li>
+							<li>
+								<defName Degree="2">ObeskCastes</defName>
+							</li>
+							<li>
+								<defName Degree="3">ObeskCastes</defName>
+							</li>
+							<li>
+								<defName Degree="4">ObeskCastes</defName>
+							</li>
+						</options>
+						<count>1</count>
+					</li>
+				</forcedRaceTraitEntries>
 			</generalSettings>
 			<raceRestriction>
 				<blackEndoCategories>

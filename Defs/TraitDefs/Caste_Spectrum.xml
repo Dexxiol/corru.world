@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+
+	<TraitDef>
+		<defName>ObeskCastes</defName>
+		<commonality>1</commonality>
+		<degreeDatas>
+			<li>
+				<label>jut caste</label>
+				<description>[PAWN_nameDef] belongs to the jut caste.</description>
+				<degree>1</degree>
+				<statOffsets>
+					<MoveSpeed>0</MoveSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<label>tir caste</label>
+				<description>[PAWN_nameDef] belongs to the tir caste.</description>
+				<degree>2</degree>
+				<statOffsets>
+					<MoveSpeed>0</MoveSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<label>vel caste</label>
+				<description>[PAWN_nameDef] belongs to the vel caste.</description>
+				<degree>3</degree>
+				<statOffsets>
+					<MoveSpeed>0</MoveSpeed>
+				</statOffsets>
+			</li>     
+			<li>
+				<label>kir caste</label>
+				<description>[PAWN_nameDef] belongs to the kir caste.</description>
+				<degree>4</degree>
+				<statOffsets>
+					<MoveSpeed>0</MoveSpeed>
+				</statOffsets>
+			</li>      			
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

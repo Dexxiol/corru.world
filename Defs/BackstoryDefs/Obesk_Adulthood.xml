@@ -3,15 +3,51 @@
 <Defs>
 
 	<AlienRace.AlienBackstoryDef>
-		<defName>ObeskAdultCaste1</defName>
-		<title>obesk</title>
-		<titleShort>obesk</titleShort>
+		<defName>ObeskAdultCasteKir1</defName>
+		<title>kir obesk</title>
+		<titleShort>kir</titleShort>
 		<slot>Adulthood</slot>
-		<description>[PAWN_nameDef] is an obesk.
-		\n[PAWN_pronoun] belong to a specific caste.</description>
+		<description>[PAWN_nameDef] is an Kir obesk.
+		\n[PAWN_pronoun] did something.</description>
 		<spawnCategories>
 			<li>ObeskAdultBackstory</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCasteTir1</defName>
+		<title>tir obesk</title>
+		<titleShort>tir</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef] is an Tir obesk.
+		\n[PAWN_pronoun] did something.</description>
+		<spawnCategories>
+			<li>ObeskAdultBackstory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCasteVel1</defName>
+		<title>vel obesk</title>
+		<titleShort>vel</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef] is an Vel obesk.
+		\n[PAWN_pronoun] did something.</description>
+		<spawnCategories>
+			<li>ObeskAdultBackstory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCasteJut1</defName>
+		<title>jut obesk</title>
+		<titleShort>jut</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef] is an Jut obesk.
+		\n[PAWN_pronoun] did something.</description>
+		<spawnCategories>
+			<li>ObeskAdultBackstory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
 </Defs>
