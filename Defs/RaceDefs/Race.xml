@@ -35,7 +35,7 @@
 					</headTypes>
 					<bodyAddons>
 						<li>
-							<path>Things/Pawns/Obesks/Receptors/Receptors_Left</path>
+							<path>Things/Pawns/Obesks/Receptors/Left/Kiv/KivReceptors_Left</path>
 							<userCustomizable>false</userCustomizable>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
@@ -43,6 +43,7 @@
 							<colorChannel>skin</colorChannel>
 							<drawSize>1</drawSize>
 							<conditions>
+								<Trait>kiv caste</Trait>
 								<BodyPart>
 									<bodyPart>Left_Receptors</bodyPart>
 									<drawWithoutPart>false</drawWithoutPart>		
@@ -76,7 +77,7 @@
 							</offsets>
 						</li>
 						<li>
-							<path>Things/Pawns/Obesks/Receptors/Receptors_Right</path>
+							<path>Things/Pawns/Obesks/Receptors/Right/Kiv/KivReceptors_Right</path>
 							<userCustomizable>false</userCustomizable>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
@@ -87,6 +88,7 @@
 								true
 							</linkVariantIndexWithPrevious>
 							<conditions>
+								<Trait>kiv caste</Trait>
 								<BodyPart>
 									<bodyPart>Right_Receptors</bodyPart>
 									<drawWithoutPart>false</drawWithoutPart>		
@@ -118,6 +120,137 @@
 									</bodyTypes>
 								</east>
 							</offsets>
+						</li>
+						<li>
+							<path>Things/Pawns/Obesks/Receptors/Left/Tir/TirReceptors_Left</path>
+							<userCustomizable>false</userCustomizable>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<drawSize>1</drawSize>
+							<conditions>
+								<Trait>tir caste</Trait>
+								<BodyPart>
+									<bodyPart>Left_Receptors</bodyPart>
+									<drawWithoutPart>false</drawWithoutPart>		
+								</BodyPart>
+							</conditions>
+							<offsets>
+								<west>
+									<bodyTypes>
+										<Male>(0,0)</Male>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</west>
+								<south>
+									<bodyTypes>
+										<Male>(0,0)</Male>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Male>(0,0)</Male>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(0,0)</Male>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
+						<li>
+							<path>Things/Pawns/Obesks/Receptors/Right/Tir/TirReceptors_Right</path>
+							<userCustomizable>false</userCustomizable>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<drawSize>1</drawSize>
+							<linkVariantIndexWithPrevious>
+								true
+							</linkVariantIndexWithPrevious>
+							<conditions>
+								<Trait>tir caste</Trait>
+								<BodyPart>
+									<bodyPart>Right_Receptors</bodyPart>
+									<drawWithoutPart>false</drawWithoutPart>		
+								</BodyPart>
+							</conditions>
+						</li>
+						<li>
+							<path>Things/Pawns/Obesks/Receptors/Left/Vel/VelReceptors_Left</path>
+							<userCustomizable>false</userCustomizable>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<drawSize>1</drawSize>
+							<conditions>
+								<Trait>vel caste</Trait>
+								<BodyPart>
+									<bodyPart>Left_Receptors</bodyPart>
+									<drawWithoutPart>false</drawWithoutPart>		
+								</BodyPart>
+							</conditions>
+						</li>
+						<li>
+							<path>Things/Pawns/Obesks/Receptors/Right/Vel/VelReceptors_Right</path>
+							<userCustomizable>false</userCustomizable>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<drawSize>1</drawSize>
+							<linkVariantIndexWithPrevious>
+								true
+							</linkVariantIndexWithPrevious>
+							<conditions>
+								<Trait>vel caste</Trait>
+								<BodyPart>
+									<bodyPart>Right_Receptors</bodyPart>
+									<drawWithoutPart>false</drawWithoutPart>		
+								</BodyPart>
+							</conditions>
+						</li>
+						<li>
+							<path>Things/Pawns/Obesks/Receptors/Left/Jut/JutReceptors_Left</path>
+							<userCustomizable>false</userCustomizable>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<drawSize>1</drawSize>
+							<conditions>
+								<Trait>jut caste</Trait>
+								<BodyPart>
+									<bodyPart>Left_Receptors</bodyPart>
+									<drawWithoutPart>false</drawWithoutPart>		
+								</BodyPart>
+							</conditions>
+						</li>
+						<li>
+							<path>Things/Pawns/Obesks/Receptors/Right/Jut/JutReceptors_Right</path>
+							<userCustomizable>false</userCustomizable>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<drawSize>1</drawSize>
+							<linkVariantIndexWithPrevious>
+								true
+							</linkVariantIndexWithPrevious>
+							<conditions>
+								<Trait>jut caste</Trait>
+								<BodyPart>
+									<bodyPart>Right_Receptors</bodyPart>
+									<drawWithoutPart>false</drawWithoutPart>		
+								</BodyPart>
+							</conditions>
 						</li>
 						<li>
 							<path>Things/Pawns/Obesks/Heads/Eyes/EyesAN</path>
@@ -346,25 +479,6 @@
 						</li>
 					</colorChannels>
 				</alienPartGenerator>
-				<forcedRaceTraitEntries>
-					<li>
-						<options>
-							<li>
-								<defName Degree="1">ObeskCastes</defName>
-							</li>
-							<li>
-								<defName Degree="2">ObeskCastes</defName>
-							</li>
-							<li>
-								<defName Degree="3">ObeskCastes</defName>
-							</li>
-							<li>
-								<defName Degree="4">ObeskCastes</defName>
-							</li>
-						</options>
-						<count>1</count>
-					</li>
-				</forcedRaceTraitEntries>
 			</generalSettings>
 			<raceRestriction>
 				<blackEndoCategories>

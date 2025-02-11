@@ -8,8 +8,8 @@
 		<commonality>1</commonality>
 		<degreeDatas>
 			<li>
-				<label>jut caste</label>
-				<description>[PAWN_nameDef] belongs to the jut caste.</description>
+				<label>kiv caste</label>
+				<description>[PAWN_nameDef] belongs to the kiv caste.</description>
 				<degree>1</degree>
 				<statOffsets>
 					<MoveSpeed>0</MoveSpeed>
@@ -32,8 +32,8 @@
 				</statOffsets>
 			</li>     
 			<li>
-				<label>kir caste</label>
-				<description>[PAWN_nameDef] belongs to the kir caste.</description>
+				<label>jut caste</label>
+				<description>[PAWN_nameDef] belongs to the jut caste.</description>
 				<degree>4</degree>
 				<statOffsets>
 					<MoveSpeed>0</MoveSpeed>

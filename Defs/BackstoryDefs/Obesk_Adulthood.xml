@@ -3,7 +3,7 @@
 <Defs>
 
 	<AlienRace.AlienBackstoryDef>
-		<defName>ObeskAdultCasteKir1</defName>
+		<defName>ObeskAdultCasteKirBase</defName>
 		<title>kir obesk</title>
 		<titleShort>kir</titleShort>
 		<slot>Adulthood</slot>
@@ -12,10 +12,13 @@
 		<spawnCategories>
 			<li>ObeskAdultBackstory</li>
 		</spawnCategories>
+		<forcedTraits>
+			<ObeskCastes>1</ObeskCastes>
+		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef>
-		<defName>ObeskAdultCasteTir1</defName>
+		<defName>ObeskAdultCasteTirBase</defName>
 		<title>tir obesk</title>
 		<titleShort>tir</titleShort>
 		<slot>Adulthood</slot>
@@ -24,10 +27,13 @@
 		<spawnCategories>
 			<li>ObeskAdultBackstory</li>
 		</spawnCategories>
+		<forcedTraits>
+			<ObeskCastes>2</ObeskCastes>
+		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
 	
 	<AlienRace.AlienBackstoryDef>
-		<defName>ObeskAdultCasteVel1</defName>
+		<defName>ObeskAdultCasteVelBase</defName>
 		<title>vel obesk</title>
 		<titleShort>vel</titleShort>
 		<slot>Adulthood</slot>
@@ -36,10 +42,13 @@
 		<spawnCategories>
 			<li>ObeskAdultBackstory</li>
 		</spawnCategories>
+		<forcedTraits>
+			<ObeskCastes>3</ObeskCastes>
+		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
 	
 	<AlienRace.AlienBackstoryDef>
-		<defName>ObeskAdultCasteJut1</defName>
+		<defName>ObeskAdultCasteJutBase</defName>
 		<title>jut obesk</title>
 		<titleShort>jut</titleShort>
 		<slot>Adulthood</slot>
@@ -48,6 +57,9 @@
 		<spawnCategories>
 			<li>ObeskAdultBackstory</li>
 		</spawnCategories>
+		<forcedTraits>
+			<ObeskCastes>4</ObeskCastes>
+		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
 	
 </Defs>
