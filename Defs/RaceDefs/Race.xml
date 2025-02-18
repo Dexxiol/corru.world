@@ -486,6 +486,11 @@
 					<li>Melanin</li>
 				</blackEndoCategories>
 			</raceRestriction>
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+					<li>NeedOutdoors</li>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
 		</alienRace>
 		<statBases>
 			<PlantWorkSpeed>0.9</PlantWorkSpeed>
