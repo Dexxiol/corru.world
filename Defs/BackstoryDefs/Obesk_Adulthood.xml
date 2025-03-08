@@ -2,20 +2,49 @@
 
 <Defs>
 
+<!-- Kiv backstories -->
+			
 	<AlienRace.AlienBackstoryDef>
-		<defName>ObeskAdultCasteKirBase</defName>
-		<title>kir obesk</title>
-		<titleShort>kir</titleShort>
+		<defName>ObeskAdultCasteKivBase</defName>
+		<title>kiv obesk</title>
+		<titleShort>kiv</titleShort>
 		<slot>Adulthood</slot>
-		<description>[PAWN_nameDef] is an Kir obesk.
+		<description>[PAWN_nameDef] is an Kiv obesk.
 		\n[PAWN_pronoun] did something.</description>
 		<spawnCategories>
-			<li>ObeskAdultBackstory</li>
+			<li>ObeskAdultBackstoryPlaceholders</li>
 		</spawnCategories>
 		<forcedTraits>
 			<ObeskCastes>1</ObeskCastes>
 		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCasteKiv1</defName>
+		<title>surface soldier</title>
+		<titleShort>soldier</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef] was a soldier for surface expeditions, 
+		\n[PAWN_possessive] strength proved invaluable when parasites found the group.</description>
+		<spawnCategories>
+			<li>ObeskAdultBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<Animals>-2</Animals>
+			<Shooting>3</Shooting>
+			<Melee>2</Melee>
+			<Plants>-7</Plants>
+		</skillGains>
+		<passions>
+			<Shooting>1</Shooting>
+			<Melee>2</Melee>
+		</passions>	
+		<forcedTraits>
+			<ObeskCastes>1</ObeskCastes>
+		</forcedTraits>
+	</AlienRace.AlienBackstoryDef>
+
+		<!-- Tir backstories -->
 
 	<AlienRace.AlienBackstoryDef>
 		<defName>ObeskAdultCasteTirBase</defName>
@@ -25,12 +54,36 @@
 		<description>[PAWN_nameDef] is an Tir obesk.
 		\n[PAWN_pronoun] did something.</description>
 		<spawnCategories>
-			<li>ObeskAdultBackstory</li>
+			<li>ObeskAdultBackstoryPlaceholders</li>
 		</spawnCategories>
 		<forcedTraits>
 			<ObeskCastes>2</ObeskCastes>
 		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCasteTir1</defName>
+		<title>surface medic</title>
+		<titleShort>medic</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef] was a field medic that tended to those wounded on the surface. 
+		\nThe time spent avoiding surface predators helping [PAWN_objective] learn the habits of most animals</description>
+		<spawnCategories>
+			<li>ObeskAdultBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<Animals>2</Animals>
+			<Medicine>4</Medicine>
+		</skillGains>
+		<passions>
+			<Medicine>1</Medicine>
+		</passions>
+		<forcedTraits>
+			<ObeskCastes>2</ObeskCastes>
+		</forcedTraits>
+	</AlienRace.AlienBackstoryDef>
+	
+		<!-- Vel backstories -->
 	
 	<AlienRace.AlienBackstoryDef>
 		<defName>ObeskAdultCasteVelBase</defName>
@@ -40,13 +93,43 @@
 		<description>[PAWN_nameDef] is an Vel obesk.
 		\n[PAWN_pronoun] did something.</description>
 		<spawnCategories>
-			<li>ObeskAdultBackstory</li>
+			<li>ObeskAdultBackstoryPlaceholders</li>
 		</spawnCategories>
 		<forcedTraits>
 			<ObeskCastes>3</ObeskCastes>
 		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
 	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCasteVel1</defName>
+		<title>surface scout</title>
+		<titleShort>scout</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef] was a scout for surface expeditions, lingering ahead and making sure anything of note or danger was reported.</description>
+		<spawnCategories>
+			<li>ObeskAdultBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<Melee>3</Melee>
+			<Shooting>2</Shooting>
+			<Crafting>-2</Crafting>
+		</skillGains>
+		<forcedTraits>
+			<ObeskCastes>3</ObeskCastes>
+		</forcedTraits>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">SpeedOffset</defName>
+				<chance>70</chance>
+			</li>
+			<li>
+				<defName Degree="2">SpeedOffset</defName>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+		<!-- Jut backstories -->	
+
 	<AlienRace.AlienBackstoryDef>
 		<defName>ObeskAdultCasteJutBase</defName>
 		<title>jut obesk</title>
@@ -55,8 +138,31 @@
 		<description>[PAWN_nameDef] is an Jut obesk.
 		\n[PAWN_pronoun] did something.</description>
 		<spawnCategories>
+			<li>ObeskAdultBackstoryPlaceholders</li>
+		</spawnCategories>
+		<forcedTraits>
+			<ObeskCastes>4</ObeskCastes>
+		</forcedTraits>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCasteJut1</defName>
+		<title>surface engineer</title>
+		<titleShort>engineer</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef] was an engineer for surface expeditions, helping repair critical equipment after it was damaged</description>
+		<spawnCategories>
 			<li>ObeskAdultBackstory</li>
 		</spawnCategories>
+		<skillGains>
+			<Social>2</Social>
+			<Shooting>4</Shooting>
+			<Crafting>4</Crafting>
+			<Artistic>-3</Artistic>
+		</skillGains>
+		<passions>
+			<Crafting>2</Crafting>
+		</passions>
 		<forcedTraits>
 			<ObeskCastes>4</ObeskCastes>
 		</forcedTraits>
