@@ -44,6 +44,31 @@
 		</forcedTraits>
 	</AlienRace.AlienBackstoryDef>
 
+	<AlienRace.AlienBackstoryDef>
+		<defName>ObeskAdultCasteKiv2</defName>
+		<title>scarred surface soldier</title>
+		<titleShort>scarred runner</titleShort>
+		<slot>Adulthood</slot>
+		<description>[PAWN_nameDef], after a terrible encounter on the surface, has been irreversably hurt, 
+		\n[PAWN_possessive] has become driven by the idea of revenge.</description>
+		<spawnCategories>
+			<li>ObeskAdultBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<Shooting>10</Shooting>
+			<Melee>15</Melee>
+		</skillGains>
+		<passions>
+			<Shooting>1</Shooting>
+			<Melee>2</Melee>
+		</passions>	
+		<forcedTraits>
+			<ObeskCastes>1</ObeskCastes>
+			<Tough>0</Tough>
+		</forcedTraits>
+		<workDisables>Social, Animals, Artistic, Intellectual, Cooking, PlantWork, Cleaning, Caring, ManualDumb, Crafting, Firefighting, Hauling, ManualSkilled</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
 		<!-- Tir backstories -->
 
 	<AlienRace.AlienBackstoryDef>
